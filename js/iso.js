@@ -29,9 +29,9 @@ frame.on('ready',function(){
     
     // 將圖檔load進來
     var img;
-    frame.loadAssets('/assets/room.png');
+    frame.loadAssets('../assets/room.png');
     frame.on('complete',function(){
-        img = frame.asset('/assets/room.png');
+        img = frame.asset('../assets/room.png');
         img.sca(0.3).center().mov(0,-img.height/1.5);
         stage.update();
     })
