@@ -39,7 +39,6 @@ frame.on('ready',function(){
     tiles.on('click', function(e){
         var point = tiles.localToGlobal(e.target.x, e.target.y);
         img.pos(point.x, point.y).mov(-img.width/2,-img.height/1.5);
-        // console.log(img.width);
         stage.update();
     });
 

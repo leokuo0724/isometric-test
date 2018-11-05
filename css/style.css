@@ -3,6 +3,13 @@
     margin: 0;
     padding: 0;
 }
-canvas{
-    background: red;
+.ui{
+    position: absolute;
+    z-index: 100;
+    background: #eee;
+    width: 100vw;
+    height: 7vh;
+}
+#footer{
+    bottom: 0;
 }
